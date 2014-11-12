@@ -24,7 +24,7 @@ function init() {
 
 function enable() {
 	let appMenu=Main.panel.statusArea.appMenu.actor.get_parent();
-	Main.panel._leftBox.insert_child_above(button, appMenu);
+	Main.panel._leftBox.insert_child_below(button, appMenu);
 	/*change this to below if you want to add it before the appmenu button*/
 }
 
